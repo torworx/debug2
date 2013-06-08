@@ -1,0 +1,9 @@
+{
+  "name": "debug2",
+  "repo": "torworx/debug2",
+  "description": "small debugging utility",
+  "version": "0.0.1",
+  "keywords": ["debug", "log", "debugger"],
+  "scripts": ["index.js", "debug2.js"],
+  "dependencies": {}
+}

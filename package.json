@@ -1,0 +1,20 @@
+{
+    "name": "debug2"
+  , "version": "0.0.1"
+  , "repository": { "type": "git", "url": "git://github.com/torworx/debug2.git" }
+  , "description": "small debugging utility"
+  , "keywords": ["debug", "log", "debugger"]
+  , "author": "Tao Yuan <torworx@gmail.com>"
+  , "dependencies": {}
+  , "devDependencies": { "mocha": "*" }
+  , "main": "lib/debug2.js"
+  , "browserify": "debug2.js"
+  , "browser": "./debug2.js"
+  , "engines": { "node": "*" }
+  , "component": {
+    "scripts": {
+      "debug/index.js": "index.js",
+      "debug/debug2.js": "debug2.js"
+    }
+  }
+}
